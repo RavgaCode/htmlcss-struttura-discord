@@ -33,6 +33,7 @@
     }
     ul{
         list-style-type: none;
+        display: inline-block;
     }
     .flexmenu{
         display: flex;
