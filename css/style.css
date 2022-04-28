@@ -4,3 +4,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* COMMON */
+.container{
+    width: 70%;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HEADER */
+.topheader{
+    background-color: lightblue;
+    /* TEST */
+    height: 100px;
+}
+.botheader{
+    background-color: darkblue;
+    /* TEST */
+    height: 400px;
+}
+    /* MENU */
+    .menu{
+        background-color: burlywood;
+        /* TEST */
+        height: 50px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .flexmenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flex-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+    }
+/* MAIN */
+.bwite{
+    background-color: white;
+    /* TEST */
+    height: 400px;
+}
+.bgrey{
+    background-color: lightslategray;
+    /* TEST */
+    height: 400px;
+}
+.flex-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columns{
+    /* TEST */
+    background-color: orange;
+    height: 100px;
+
+}
