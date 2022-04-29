@@ -8,6 +8,7 @@
 .container{
     width: 70%;
     margin: auto;
+    height: 100%;
 }
 .flex-container{
     display: flex;
@@ -35,7 +36,7 @@
         list-style-type: none;
         display: inline-block;
     }
-    .flexmenu{
+    .flex-menu{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -46,8 +47,21 @@
         align-items: center;
         width: 250px;
     }
+    /* JUMBOTRON */
+    .flex-jumbotron{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .jumbotron{
+        width:60%;
+        height: 300px;
+        background-color: purple;
+        align-self: center;
+    }
 /* MAIN */
-.bwite{
+.bwhite{
     background-color: white;
     /* TEST */
     height: 400px;
@@ -57,14 +71,40 @@
     /* TEST */
     height: 400px;
 }
+.bgrey-big{
+    background-color: lightslategray;
+    /* TEST */
+    height: 700px;  
+}
 .flex-section{
     display: flex;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 .columns{
     /* TEST */
-    background-color: orange;
-    height: 100px;
+    background-color: darkgreen;
+    height: 340px;
+    width: 100%;
+    margin: auto;
+    display: flex;
 
+}
+.big-item{
+    background-color: darkgreen;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.small-col{
+    background-color: pink;
+    width: calc(100% / 3);
+    border: 1px dotted black;
+}
+.large-col{
+    background-color: cornflowerblue;
+    width: calc(100% / 3 * 2);
+    border: 1px dotted black;
 }
