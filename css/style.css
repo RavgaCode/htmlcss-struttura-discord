@@ -108,3 +108,43 @@
     width: calc(100% / 3 * 2);
     border: 1px dotted black;
 }
+/* FOOTER */
+.top-footer{
+    background-color: darkslategrey;
+    height: 600px;
+    width: 100%;
+}
+.footer-flex{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-col{
+    height: 100%;
+    width: calc(100% / 5);
+    border: 1px dotted black;
+    background-color: greenyellow;
+}
+#footer-hr{
+    color: white;
+    height: 2px;
+    align-self: flex-end;
+}
+.bot-footer{
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100%;
+}
+.foot-input{
+    background-color: aquamarine;
+    height: 80px;
+    align-self:flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+}
