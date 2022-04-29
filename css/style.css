@@ -119,6 +119,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid white;
 }
 .footer-col{
     height: 100%;
@@ -126,11 +127,7 @@
     border: 1px dotted black;
     background-color: greenyellow;
 }
-#footer-hr{
-    color: white;
-    height: 2px;
-    align-self: flex-end;
-}
+
 .bot-footer{
     background-color: darkslategrey;
     height: 100px;
@@ -147,4 +144,3 @@
 }
 
 
-}
